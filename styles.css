@@ -1,6 +1,6 @@
 .main__title {
     margin: 0 0 40px 0;
-    font-family: Pt serif, Arial, Helvetica, sans-serif;
+    font-family: pt_serifbold, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 66px;
     line-height:87px;
@@ -8,7 +8,7 @@
 .menu__item{
     position: relative;
     margin-right: 26px;
-    border: dashed 1px red;
+    //border: dashed 1px red;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -20,23 +20,23 @@
 .wrapper{
     margin: auto;
     width: 80%;
-    border: dashed 1px red;
+    //border: dashed 1px red;
 }
 .logo, .menu {
     display: inline-block;
-    border: dashed 1px red;
+    //border: dashed 1px red;
 }
 .logo{
     margin-right: 63%;
     position: relative;
     padding: 40px 0;
     padding-left: 44px;
-    font: bold 24px/32px pt serif, arial, helvetica, sans-serif;
+    font: bold 24px/32px pt_serifbold, arial, helvetica, sans-serif;
 }
 .logo__circle{
     width: 28px;
     height: 28px;
-    border: dashed 1px red;
+    //border: dashed 1px red;
     position: absolute;
     left: 0;
     top: 50%;
@@ -64,6 +64,7 @@
 }
 .menu__item:last-child{
     margin-right: 0;
+    white-space: nowrap;
 }
 .menu__item_active::after{
     position:absolute;
